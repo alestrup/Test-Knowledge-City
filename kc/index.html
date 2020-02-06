@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Knowledge City</title>
+    <link rel="stylesheet" href="./assets/css/login.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="form">
+            <img src="assets/images/logo.svg" alt="Knowledge Cyty">
+            <h3 class="title">
+                Welcome to the Learning Management System
+            </h3>
+            <p class="subtitle">
+                Please log in to continue
+            </p>
+            <form id="login-form">
+                <div class="input-group">
+                    <label>
+                        <input type="text" id="username"
+                            placeholder="Username"
+                            required>
+                    </label>
+                </div>
+                <div class="input-group">
+                    <input type="password" id="password"
+                        placeholder="Password"
+                        required>
+                </div>
+                <div class="input-group">
+                    <input type="checkbox" id="remember" value="1">
+                    <label>Remember me</label>
+                </div>
+
+                <div class="error-alert" id='error' style="display:none;">
+                    Login failed wrong user credentials
+                </div>
+
+                <div class="btn-container">
+                    <button type="submit" class="btn-login" id="login">
+                        Log in
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="./assets/js/jquery-3.4.1.min.js"></script>
+    <script src="./assets/js/jquery.cookie.js"></script>
+    <script src="./assets/js/sessions.js"></script>
+    <script src="./assets/js/login.js"></script>
+</body>
+</html>
