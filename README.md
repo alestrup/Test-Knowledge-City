@@ -13,7 +13,7 @@ For this project is necessary to have installed a web development environment wi
 There are the steps to run the projects on your local server (XAMPP).
 
 - Download or clone the project.
-- Locate the htdocs folder into the xampp filesr's installation folder and move the folders "kc” and "kc_api" inside it.
+- Locate the htdocs folder into the xamppfiles installation folder and move the folders "kc” and "kc_api" inside it.
 - Start your server.
 - Open your phpMyAdmin and execute the kcdb in order to create the database.
 - Create a new database user, with the follow credentials: User: root , Password: ‘’ and grant all the permission for the database “kc”_db.
